@@ -37,4 +37,6 @@ public interface ProductOrderRepository extends JpaRepository<ProductOrder, Long
 
     @Query("select productOrder from ProductOrder productOrder left join fetch productOrder.customer where productOrder.id =:id")
     Optional<ProductOrder> findOneWithToOneRelationships(@Param("id") Long id);
+
+    Page<ProductOrder> findAllByCustomerUserLogin(String login, Pageable pageable);
 }
