@@ -1,11 +1,3 @@
-id;first_name;lastname;gender;email;phone;address_line_1;address_line_2;city;country
-1;Chelsey;generating Market wireless;MALE;"[P5z@-.s=";1-832-680-1499;Sahara;Kong deposit;Retaview;Macedonia
-2;Chaim;Extended;OTHER;"l{2w+@Kz4q|.)7`";(430) 770-0506 x47692;database multi-byte deposit;violet Licensed Kids;New Dalestad;Ukraine
-3;Olen;multi-tasking Investment Electronics;MALE;"F\o^w@0.tMYs";674.266.8301 x227;Refined Island architectures;fuchsia override;Macktown;Togo
-4;Darien;transmitting Kenya;OTHER;"~M/F},@n5'-.Iw>";(349) 704-9488;Designer;multi-tasking;New Clairfort;Maldives
-5;Destiny;fuchsia International;MALE;"2@i+.b";496.281.9476 x8806;Open-source parsing Ramp;Human New;San Buenaventura (Ventura);Macao
-6;Herman;withdrawal Chief system-worthy;OTHER;"S2GfY$@WEh'E.x";457.847.7787 x15990;deliverables;neural Mouse transmit;MacGyverview;Japan
-7;Mable;Bike California invoice;FEMALE;"9:b@S.syTK.";1-718-541-0806;online deposit Specialist;compress user;Kleinshire;New Caledonia
-8;Lafayette;Oklahoma Awesome;MALE;"(q4@An~.]Q|9v";1-856-302-9898 x989;Fantastic Bedfordshire Connecticut;Nebraska;Willtown;Philippines
-9;Angus;Assistant Beauty;MALE;"j8x!@~mI.#K>![U";1-494-520-4912 x842;Dynamic Loaf;Buckinghamshire reboot;Clayfurt;Saint Pierre and Miquelon
-10;Novella;haptic Frozen Plastic;MALE;"}v@\%`-.pe";1-906-770-8409 x1786;transform open-source;Cambridgeshire Unbranded;Port Bart;Holy See (Vatican City State)
+id;first_name;lastname;gender;email;phone;address_line_1;address_line_2;city;country;user_id
+1;Chelsey;generating Market wireless;MALE;"[P5z@-.s=";1-832-680-1499;Sahara;Kong deposit;Retaview;Macedonia;1
+2;Chaim;Extended;OTHER;"l{2w+@Kz4q|.)7`";(430) 770-0506 x47692;database multi-byte deposit;violet Licensed Kids;New Dalestad;Ukraine;2

@@ -1,11 +1,11 @@
-id;tracking_code;date;details
-1;Mouse Villages;2022-07-16T09:12:15;unleash integrate
-2;Gloves Account Belarussian;2022-07-16T19:12:36;Orchestrator Stravenue
-3;Gorgeous Checking;2022-07-16T00:31:08;SSL zero
-4;user-facing turquoise;2022-07-16T14:21:16;Iran Garden auxiliary
-5;experiences multi-tasking Tasty;2022-07-16T01:49:09;Viaduct Bedfordshire
-6;Shoes Avon;2022-07-16T21:10:42;Lilangeni
-7;Music Handmade;2022-07-16T06:48:20;Estate red
-8;Officer mobile Specialist;2022-07-16T16:38:23;system
-9;bypass;2022-07-16T22:10:41;Streamlined
-10;invoice Quality-focused hack;2022-07-16T02:31:30;wireless Borders
+id;tracking_code;date;details;invoice_id
+1;Mouse Villages;2022-07-16T09:12:15;unleash integrate;1
+2;Gloves Account Belarussian;2022-07-16T19:12:36;Orchestrator Stravenue;2
+3;Gorgeous Checking;2022-07-16T00:31:08;SSL zero;3
+4;user-facing turquoise;2022-07-16T14:21:16;Iran Garden auxiliary;4
+5;experiences multi-tasking Tasty;2022-07-16T01:49:09;Viaduct Bedfordshire;5
+6;Shoes Avon;2022-07-16T21:10:42;Lilangeni;6
+7;Music Handmade;2022-07-16T06:48:20;Estate red;7
+8;Officer mobile Specialist;2022-07-16T16:38:23;system;8
+9;bypass;2022-07-16T22:10:41;Streamlined;9
+10;invoice Quality-focused hack;2022-07-16T02:31:30;wireless Borders;10
