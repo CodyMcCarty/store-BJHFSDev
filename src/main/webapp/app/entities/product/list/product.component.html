@@ -28,6 +28,18 @@
     <span jhiTranslate="storeApp.product.home.notFound">No products found</span>
   </div>
 
+  <div *ngIf="products">
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action flex-column align-items-start" *ngFor="let product of products; trackBy: trackId">
+        <div class="d-flex w-100 justify-content-between">
+          <a [routerLink]="['/product', product.id, 'view']">
+            <h5 class="mb-1">{{ product.name }}</h5>
+          </a>
+        </div>
+      </a>
+    </div>
+  </div>
+
   <div class="table-responsive" id="entities" *ngIf="products && products.length > 0">
     <table class="table table-striped" aria-describedby="page-heading">
       <thead>
