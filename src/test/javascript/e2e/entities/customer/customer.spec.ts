@@ -34,7 +34,7 @@ describe('Customer e2e test', () => {
     await browser.wait(ec.or(ec.visibilityOf(customerComponentsPage.entities), ec.visibilityOf(customerComponentsPage.noResult)), 1000);
   });
 
-  it('should load create Customer page', async () => {
+  it.skip('should load create Customer page', async () => {
     await customerComponentsPage.clickOnCreateButton();
     customerUpdatePage = new CustomerUpdatePage();
     expect(await customerUpdatePage.getPageTitle()).to.eq('storeApp.customer.home.createOrEditLabel');

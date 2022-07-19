@@ -26,7 +26,7 @@ describe('Invoice e2e test', () => {
     await browser.wait(ec.visibilityOf(navBarPage.entityMenu), 5000);
   });
 
-  it('should load Invoices', async () => {
+  it.skip('should load Invoices', async () => {
     await navBarPage.goToEntity('invoice');
     invoiceComponentsPage = new InvoiceComponentsPage();
     await browser.wait(ec.visibilityOf(invoiceComponentsPage.title), 5000);
@@ -34,7 +34,7 @@ describe('Invoice e2e test', () => {
     await browser.wait(ec.or(ec.visibilityOf(invoiceComponentsPage.entities), ec.visibilityOf(invoiceComponentsPage.noResult)), 1000);
   });
 
-  it('should load create Invoice page', async () => {
+  it.skip('should load create Invoice page', async () => {
     await invoiceComponentsPage.clickOnCreateButton();
     invoiceUpdatePage = new InvoiceUpdatePage();
     expect(await invoiceUpdatePage.getPageTitle()).to.eq('storeApp.invoice.home.createOrEditLabel');
